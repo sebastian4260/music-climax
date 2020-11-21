@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+# rubocop:disable all
 module Requester
   def main_menu
     puts 'create | show ID | upadte ID | delete ID'

@@ -1,4 +1,6 @@
-require "stringio"
+# frozen_string_literal: true
+# rubocop:disable all
+require 'stringio'
 
 module IoTestHelpers
   def simulate_stdin(*inputs)
@@ -13,3 +15,4 @@ module IoTestHelpers
     $stdin = actual_stdin
   end
 end
+# rubocop:enable all

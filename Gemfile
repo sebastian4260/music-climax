@@ -1,6 +1,8 @@
-# Gemfile
-source "https://rubygems.org"
+# frozen_string_literal: true
 
-gem "minitest"
-gem "rubocop", require: false
-gem "terminal-table"
+# Gemfile
+source 'https://rubygems.org'
+
+gem 'minitest'
+gem 'rubocop', require: false
+gem 'terminal-table'
